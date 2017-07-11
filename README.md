@@ -5,7 +5,7 @@ SciPy 2016 Scikit-learn Tutorial
 Instructors
 -----------
 
-- [Alexandre Gramfort](http://http://alexandre.gramfort.net/)  [@agramfort](https://twitter.com/agramfort)
+- [Alexandre Gramfort](http://http://alexandre.gramfort.net/)  [@agramfort](https://twitter.com/agramfort) - Inria, Université Paris-Saclay
 - [Andreas Mueller](http://amuller.github.io) [@amuellerml](https://twitter.com/amuellerml) - Columbia University; [Book: Introduction to Machine Learning with Python](http://shop.oreilly.com/product/0636920030515.do)
 
 ---
@@ -66,6 +66,7 @@ This tutorial will require recent installations of
 - [NumPy](http://www.numpy.org)
 - [SciPy](http://www.scipy.org)
 - [matplotlib](http://matplotlib.org)
+- [pandas](http://pandas.pydata.org)
 - [pillow](https://python-pillow.org)
 - [scikit-learn](http://scikit-learn.org/stable/)
 - [IPython](http://ipython.readthedocs.org/en/stable/)
@@ -87,18 +88,6 @@ data analysis; Anaconda can be downloaded and installed for free
 including commercial use and redistribution.
 The code examples in this tutorial should be compatible to Python 2.7,
 Python 3.4-3.6.
-
-For some of the plots in the tutorial, you will also need the graphviz library.
-If you are using Anaconda or conda, you can install it via
-```bash
-conda install graphviz python-graphviz
-```
-
-If you do not use conda, you need to install graphviz via your package manager
-(brew, apt, ...) and install the python graphviz library via
-```bash
-pip install graphviz
-```
 
 After obtaining the material, we **strongly recommend** you to open and execute
 the Jupyter Notebook `jupter notebook check_env.ipynb` that is located at the
@@ -179,8 +168,9 @@ Afternoon Session
 - 15 Scikit-learn Pipelines [[view](notebooks/15.Pipelining_Estimators.ipynb)]
 - 16 Supervised learning: Performance metrics for classification [[view](notebooks/16.Performance_metrics_and_Model_Evaluation.ipynb)]
 - 17 Supervised learning: Linear Models [[view](notebooks/17.In_Depth-Linear_Models.ipynb)]
-- 19 Supervised learning: Decision trees and random forests, and ensemble methods [[view](notebooks/19.In_Depth-Trees_and_Forests.ipynb)]
-- 20 Supervised learning: feature selection [[view](notebooks/20.Feature_Selection.ipynb)]
-- 21 Unsupervised learning: Hierarchical and density-based clustering algorithms [[view](notebooks/21.Unsupervised_learning-Hierarchical_and_density-based_clustering_algorithms.ipynb)]
-- 22 Unsupervised learning: Non-linear dimensionality reduction [[view](notebooks/22.Unsupervised_learning-Non-linear_dimensionality_reduction.ipynb)]
+- 18 Supervised learning: Decision trees and random forests, and ensemble methods [[view](notebooks/18.In_Depth-Trees_and_Forests.ipynb)]
+- 19 Supervised learning: feature selection [[view](notebooks/19.Feature_Selection.ipynb)]
+- 20 Unsupervised learning: Hierarchical and density-based clustering algorithms [[view](notebooks/20.Unsupervised_learning-Hierarchical_and_density-based_clustering_algorithms.ipynb)]
+- 21 Unsupervised learning: Non-linear dimensionality reduction [[view](notebooks/21.Unsupervised_learning-Non-linear_dimensionality_reduction.ipynb)]
+- 22 Unsupervised learning: Anomaly Detection [[view](notebooks/22.Unsupervised_learning-anomaly_detection.ipynb)]
 - 23 Supervised learning: Out-of-core learning [[view](notebooks/23.Out-of-core_Learning_Large_Scale_Text_Classification.ipynb)]
